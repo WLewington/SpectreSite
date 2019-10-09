@@ -1,0 +1,184 @@
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background: rgb(48, 36, 36);
+    color: white;
+    font-size: 30px;
+    font-family:  
+                    
+                    'Arial Narrow Bold', 
+                    sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 30px; 
+}
+
+
+header{
+    text-align: center;
+    height: 400px;
+    padding: 40px 20px 60px 20px;
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.bannerIndex{
+    background-image: url("images/close-logicboard.jpg");
+    
+
+}
+
+.bannerLocations{
+    background-image: url("images/drone-mountain.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    top: -40px;
+}
+
+.bannerTeam{
+    background-image: url("images/office_space.jpg");
+    color: black
+}
+
+.bannerTeam a{
+    color: black;
+    font-weight: bold;
+}
+
+.bannerTeam img{
+    float: left;
+    width: 150px;
+   
+}
+
+.bannerTeam h1{
+    font-family: "Lucida Console";
+    color: black;
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+
+.team{
+    background: white;
+    color: grey;
+    padding: 20;
+    display: flex;
+    flex-direction: row;   
+}
+
+.team figure{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+
+.team figure img{
+    border: 1px solid white;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: grey 0px 0px 20px 
+}
+
+
+div{
+    /* background-color: rgb(56, 56, 56); */
+    /* display: inline-block; */
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+
+.feature-box{ 
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 31, 83);
+
+}
+
+section.feature-box.teams{
+    display: flex;
+}
+
+section.feature-box.products{
+    display: flex;
+    
+}
+
+section.feature-box.materials{
+    display: flex;
+}
+
+/* - - - - RESPONSE FEATURES - - - - - - */
+@media screen and (max-width: 1130px){
+
+    .team{
+        background: white;
+        color: grey;
+        padding: 20;
+        display: flex;
+        flex-direction: column;   
+    }
+    
+    .team figure{
+        position: relative;
+        float:right;
+        margin: auto;
+        text-align: right;
+        width: 200px;
+    }
+    
+    .team figure img{
+        
+        border: 1px solid white;
+        width: 300px;
+        border-radius: 50%;
+        box-shadow: grey 0px 0px 20px 
+    }
+
+}
+
+
+footer{
+    background: rgb(72, 112, 185);
+    padding: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    .feature-box{
+        background-color: rgb(255, 8, 160);
+    }
+}
+
+@media screen and (max-width: 700px){
+    .feature-box{
+        background-color: red;
+    }
+}
+
+
+
+
