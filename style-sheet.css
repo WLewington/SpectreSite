@@ -41,20 +41,20 @@ header{
 
 
 .bannerIndex{
-    background-image: url("images/close-logicboard.jpg");
+    background-image: url("images/backgrounds/close-logicboard.jpg");
     
 
 }
 
 .bannerLocations{
-    background-image: url("images/drone-mountain.jpg");
+    background-image: url("images/backgrounds/drone-mountain.jpg");
     background-repeat: no-repeat;
     position: relative;
     top: -40px;
 }
 
 .bannerTeam{
-    background-image: url("images/office_space.jpg");
+    background-image: url("images/backgrounds/office_space.jpg");
     color: black
 }
 
